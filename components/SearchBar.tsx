@@ -1,6 +1,6 @@
 import { icons } from "@/constants/icons";
 import React from "react";
-import { Image, View } from "react-native";
+import { Image, TextInput, View } from "react-native";
 
 const SearchBar = () => {
   return (
@@ -11,6 +11,7 @@ const SearchBar = () => {
         resizeMode="contain"
         tintColor="#ab8bff"
       />
+      <TextInput />
     </View>
   );
 };
