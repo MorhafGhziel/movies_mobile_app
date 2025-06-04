@@ -43,22 +43,7 @@ export default function Index() {
         <>
           <Text className="text-lg text-white font-bold mt-5 mb-3">Latest Movies</Text>
 
-          <FlatList
-            data={movies}
-            renderItem={({ item }) => (
-              <Text className="text-white text-sm">{item.title}</Text>
-            )}
-            keyExtractor={(item) => item.id.toString()}
-            numColumns={2}
-            columnWrapperStyle={{
-              gap: 20,
-              justifyContent: "flex-start",
-              marginBottom: 10,
-              paddingRight: 5,
-            }}
-              className="mt-2 pb-32"   
-              scrollEnabled={false}     
-          />
+
         </>
         )}
 
